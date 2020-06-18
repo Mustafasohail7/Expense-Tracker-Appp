@@ -32,7 +32,7 @@ function AddTransaction() {
                     <label htmlFor="transactionamount">
                         Transaction Amount (Use negative sign for expenses)
                     </label><br/>
-                    <input type="number" step="0.01" id="transactionamount" placeholder="Transaction Amount" 
+                    <input type="number" step="0.01" required id="transactionamount" placeholder="Transaction Amount" 
                         value={amount} onChange={(e) => {setAmount(e.target.value)}}/>
                 </div>
                 <button className="btn">Add Transaction</button>
