@@ -8,16 +8,14 @@ import AddTransaction from './components/AddTransaction';
 import {GlobalProvider} from './context/GlobalContext';
 
 function App() {
-  let Income = 500;
-  let Expenses = 400;
-  let balance = Income - Expenses;
+
   return (
-    <div align='center'>
+    <div>
     <GlobalProvider>
       <Header/>
-      <div>
-        <Balance value={balance}/>
-        <Summary inc={Income} exp={Expenses}/>
+      <div className="container">
+        <Balance />
+        <Summary />
         <TransactionHistory/>
         <AddTransaction/>
       </div>
