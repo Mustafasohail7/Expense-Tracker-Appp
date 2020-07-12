@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-Deployed At: expensetrackerbymustafa.surge.sh
+Deployed At: www.expensetrackerbymustafa.surge.sh
 
 In the project directory, you can run:
 
